@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESTBeacon.h"
 
-@interface SeekPanelViewController : UIViewController
+@interface SeekPanelViewController : UIViewController <UIAlertViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIButton *backButton;
+
+/*
+ * Selected beacon is returned on given completion handler.
+ */
+- (id)initWithCompletionHandler:(void (^)(ESTBeacon *))completionHandler;
 
 @end

@@ -332,6 +332,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="i2y-wP-p4o"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="backButton" destination="oak-Pu-rwi" id="zg0-Wb-M4a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaY-i3-E2f" sceneMemberID="firstResponder"/>
             </objects>

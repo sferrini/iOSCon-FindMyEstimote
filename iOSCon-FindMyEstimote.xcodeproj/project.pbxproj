@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09FBD6D956B14F7BACE180D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C63AC4EDE64A83BF385FE2 /* libPods.a */; };
+		FC45C84919284CF70064D2EC /* SearchingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FC45C84719284CF70064D2EC /* SearchingBox.m */; };
+		FC45C84A19284CF70064D2EC /* SearchingBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC45C84819284CF70064D2EC /* SearchingBox.xib */; };
 		FC585A3C1928386D0096B8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3B1928386D0096B8DE /* Foundation.framework */; };
 		FC585A3E1928386D0096B8DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3D1928386D0096B8DE /* CoreGraphics.framework */; };
 		FC585A401928386D0096B8DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3F1928386D0096B8DE /* UIKit.framework */; };
@@ -28,6 +30,8 @@
 		FC585A7A192840230096B8DE /* HowToPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A79192840230096B8DE /* HowToPlayViewController.m */; };
 		FC585A801928423F0096B8DE /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A7F1928423F0096B8DE /* StateViewController.m */; };
 		FC585A841928461B0096B8DE /* SeekPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A831928461B0096B8DE /* SeekPanelViewController.m */; };
+		FCA2703E19285054002C454E /* SeekPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2703C19285054002C454E /* SeekPanelView.m */; };
+		FCA2703F19285054002C454E /* SeekPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2703D19285054002C454E /* SeekPanelView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,9 @@
 /* Begin PBXFileReference section */
 		4818730F25744785A448190B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C2C63AC4EDE64A83BF385FE2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC45C84619284CF70064D2EC /* SearchingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchingBox.h; sourceTree = "<group>"; };
+		FC45C84719284CF70064D2EC /* SearchingBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchingBox.m; sourceTree = "<group>"; };
+		FC45C84819284CF70064D2EC /* SearchingBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchingBox.xib; sourceTree = "<group>"; };
 		FC585A381928386D0096B8DE /* iOSCon-FindMyEstimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSCon-FindMyEstimote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC585A3B1928386D0096B8DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC585A3D1928386D0096B8DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +79,9 @@
 		FC585A7F1928423F0096B8DE /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
 		FC585A821928461B0096B8DE /* SeekPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekPanelViewController.h; sourceTree = "<group>"; };
 		FC585A831928461B0096B8DE /* SeekPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekPanelViewController.m; sourceTree = "<group>"; };
+		FCA2703B19285054002C454E /* SeekPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekPanelView.h; sourceTree = "<group>"; };
+		FCA2703C19285054002C454E /* SeekPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekPanelView.m; sourceTree = "<group>"; };
+		FCA2703D19285054002C454E /* SeekPanelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeekPanelView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC45C84B19284D000064D2EC /* SearchingBox */ = {
+			isa = PBXGroup;
+			children = (
+				FC45C84619284CF70064D2EC /* SearchingBox.h */,
+				FC45C84719284CF70064D2EC /* SearchingBox.m */,
+				FC45C84819284CF70064D2EC /* SearchingBox.xib */,
+			);
+			name = SearchingBox;
+			sourceTree = "<group>";
+		};
 		FC585A2F1928386D0096B8DE = {
 			isa = PBXGroup;
 			children = (
@@ -220,8 +240,20 @@
 			children = (
 				FC585A821928461B0096B8DE /* SeekPanelViewController.h */,
 				FC585A831928461B0096B8DE /* SeekPanelViewController.m */,
+				FCA2704019285059002C454E /* SeekPanelView */,
+				FC45C84B19284D000064D2EC /* SearchingBox */,
 			);
 			name = SeekPanelViewController;
+			sourceTree = "<group>";
+		};
+		FCA2704019285059002C454E /* SeekPanelView */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2703B19285054002C454E /* SeekPanelView.h */,
+				FCA2703C19285054002C454E /* SeekPanelView.m */,
+				FCA2703D19285054002C454E /* SeekPanelView.xib */,
+			);
+			name = SeekPanelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +336,9 @@
 			files = (
 				FC585A7319283A850096B8DE /* estimote.png in Resources */,
 				FC585A541928386D0096B8DE /* Images.xcassets in Resources */,
+				FC45C84A19284CF70064D2EC /* SearchingBox.xib in Resources */,
 				FC585A461928386D0096B8DE /* InfoPlist.strings in Resources */,
+				FCA2703F19285054002C454E /* SeekPanelView.xib in Resources */,
 				FC585A7219283A850096B8DE /* back-arrow.png in Resources */,
 				FC585A4F1928386D0096B8DE /* Main.storyboard in Resources */,
 			);
@@ -364,6 +398,8 @@
 				FC585A4C1928386D0096B8DE /* AppDelegate.m in Sources */,
 				FC585A841928461B0096B8DE /* SeekPanelViewController.m in Sources */,
 				FC585A7A192840230096B8DE /* HowToPlayViewController.m in Sources */,
+				FCA2703E19285054002C454E /* SeekPanelView.m in Sources */,
+				FC45C84919284CF70064D2EC /* SearchingBox.m in Sources */,
 				FC585A481928386D0096B8DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
