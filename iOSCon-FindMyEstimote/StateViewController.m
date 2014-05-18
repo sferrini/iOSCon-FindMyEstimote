@@ -116,12 +116,30 @@
         case 0:{
             if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"32687"] isEqualToValue:@YES] || [[[NSUserDefaults standardUserDefaults] objectForKey:@"47723"] isEqualToValue:@YES] || [[[NSUserDefaults standardUserDefaults] objectForKey:@"37862"] isEqualToValue:@YES]) {
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                
+                if (self.estimoteNumber.selectedSegmentIndex == 0) {
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You win!"
+                                                                    message:@"Congratulations you have found all estimote"
+                                                                   delegate:nil
+                                                          cancelButtonTitle:@"Ok"
+                                                          otherButtonTitles:nil];
+                    [alert show];
+                }
             }
         }
             break;
         case 1:{
             if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"32687"] isEqualToValue:@YES] && [[[NSUserDefaults standardUserDefaults] objectForKey:@"47723"] isEqualToValue:@YES] && [[[NSUserDefaults standardUserDefaults] objectForKey:@"37862"] isEqualToValue:@YES]) {
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                
+                if (self.estimoteNumber.selectedSegmentIndex == 1) {
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You win!"
+                                                                    message:@"Congratulations you have found all estimote"
+                                                                   delegate:nil
+                                                          cancelButtonTitle:@"Ok"
+                                                          otherButtonTitles:nil];
+                    [alert show];
+                }
             }
             
             if (
@@ -133,18 +151,34 @@
                 ([[[NSUserDefaults standardUserDefaults] objectForKey:@"47723"] isEqualToValue:@YES] && [[[NSUserDefaults standardUserDefaults] objectForKey:@"37862"] isEqualToValue:@YES]) ) {
                 
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                
+                if (self.estimoteNumber.selectedSegmentIndex == 1) {
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You win!"
+                                                                    message:@"Congratulations you have found all estimote"
+                                                                   delegate:nil
+                                                          cancelButtonTitle:@"Ok"
+                                                          otherButtonTitles:nil];
+                    [alert show];
+                }
             }
         }
             break;
         case 2:{
             if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"32687"]  isEqualToValue:@YES] && [[[NSUserDefaults standardUserDefaults] objectForKey:@"47723"] isEqualToValue:@YES] && [[[NSUserDefaults standardUserDefaults] objectForKey:@"37862"] isEqualToValue:@YES]) {
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                
+                if (self.estimoteNumber.selectedSegmentIndex == 2) {
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You win!"
+                                                                    message:@"Congratulations you have found all estimote"
+                                                                   delegate:nil
+                                                          cancelButtonTitle:@"Ok"
+                                                          otherButtonTitles:nil];
+                    [alert show];
+                }
             }
         }
             break;
     }
-    
-    
     return cell;
 }
 
