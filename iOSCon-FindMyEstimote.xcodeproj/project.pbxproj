@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC585A3C1928386D0096B8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3B1928386D0096B8DE /* Foundation.framework */; };
+		FC585A3E1928386D0096B8DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3D1928386D0096B8DE /* CoreGraphics.framework */; };
+		FC585A401928386D0096B8DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3F1928386D0096B8DE /* UIKit.framework */; };
+		FC585A461928386D0096B8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC585A441928386D0096B8DE /* InfoPlist.strings */; };
+		FC585A481928386D0096B8DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A471928386D0096B8DE /* main.m */; };
+		FC585A4C1928386D0096B8DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A4B1928386D0096B8DE /* AppDelegate.m */; };
+		FC585A4F1928386D0096B8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC585A4D1928386D0096B8DE /* Main.storyboard */; };
+		FC585A521928386D0096B8DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A511928386D0096B8DE /* ViewController.m */; };
+		FC585A541928386D0096B8DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC585A531928386D0096B8DE /* Images.xcassets */; };
+		FC585A5B1928386D0096B8DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A5A1928386D0096B8DE /* XCTest.framework */; };
+		FC585A5C1928386D0096B8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3B1928386D0096B8DE /* Foundation.framework */; };
+		FC585A5D1928386D0096B8DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC585A3F1928386D0096B8DE /* UIKit.framework */; };
+		FC585A651928386D0096B8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC585A631928386D0096B8DE /* InfoPlist.strings */; };
+		FC585A671928386D0096B8DE /* iOSCon_FindMyEstimoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC585A661928386D0096B8DE /* iOSCon_FindMyEstimoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC585A5E1928386D0096B8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC585A301928386D0096B8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC585A371928386D0096B8DE;
+			remoteInfo = "iOSCon-FindMyEstimote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC585A381928386D0096B8DE /* iOSCon-FindMyEstimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSCon-FindMyEstimote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC585A3B1928386D0096B8DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC585A3D1928386D0096B8DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC585A3F1928386D0096B8DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC585A431928386D0096B8DE /* iOSCon-FindMyEstimote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSCon-FindMyEstimote-Info.plist"; sourceTree = "<group>"; };
+		FC585A451928386D0096B8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC585A471928386D0096B8DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC585A491928386D0096B8DE /* iOSCon-FindMyEstimote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSCon-FindMyEstimote-Prefix.pch"; sourceTree = "<group>"; };
+		FC585A4A1928386D0096B8DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC585A4B1928386D0096B8DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC585A4E1928386D0096B8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC585A501928386D0096B8DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC585A511928386D0096B8DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC585A531928386D0096B8DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC585A591928386D0096B8DE /* iOSCon-FindMyEstimoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSCon-FindMyEstimoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC585A5A1928386D0096B8DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC585A621928386D0096B8DE /* iOSCon-FindMyEstimoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSCon-FindMyEstimoteTests-Info.plist"; sourceTree = "<group>"; };
+		FC585A641928386D0096B8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC585A661928386D0096B8DE /* iOSCon_FindMyEstimoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCon_FindMyEstimoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC585A351928386D0096B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A3E1928386D0096B8DE /* CoreGraphics.framework in Frameworks */,
+				FC585A401928386D0096B8DE /* UIKit.framework in Frameworks */,
+				FC585A3C1928386D0096B8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC585A561928386D0096B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A5B1928386D0096B8DE /* XCTest.framework in Frameworks */,
+				FC585A5D1928386D0096B8DE /* UIKit.framework in Frameworks */,
+				FC585A5C1928386D0096B8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC585A2F1928386D0096B8DE = {
+			isa = PBXGroup;
+			children = (
+				FC585A411928386D0096B8DE /* iOSCon-FindMyEstimote */,
+				FC585A601928386D0096B8DE /* iOSCon-FindMyEstimoteTests */,
+				FC585A3A1928386D0096B8DE /* Frameworks */,
+				FC585A391928386D0096B8DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC585A391928386D0096B8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A381928386D0096B8DE /* iOSCon-FindMyEstimote.app */,
+				FC585A591928386D0096B8DE /* iOSCon-FindMyEstimoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC585A3A1928386D0096B8DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A3B1928386D0096B8DE /* Foundation.framework */,
+				FC585A3D1928386D0096B8DE /* CoreGraphics.framework */,
+				FC585A3F1928386D0096B8DE /* UIKit.framework */,
+				FC585A5A1928386D0096B8DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC585A411928386D0096B8DE /* iOSCon-FindMyEstimote */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A4A1928386D0096B8DE /* AppDelegate.h */,
+				FC585A4B1928386D0096B8DE /* AppDelegate.m */,
+				FC585A4D1928386D0096B8DE /* Main.storyboard */,
+				FC585A501928386D0096B8DE /* ViewController.h */,
+				FC585A511928386D0096B8DE /* ViewController.m */,
+				FC585A531928386D0096B8DE /* Images.xcassets */,
+				FC585A421928386D0096B8DE /* Supporting Files */,
+			);
+			path = "iOSCon-FindMyEstimote";
+			sourceTree = "<group>";
+		};
+		FC585A421928386D0096B8DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A431928386D0096B8DE /* iOSCon-FindMyEstimote-Info.plist */,
+				FC585A441928386D0096B8DE /* InfoPlist.strings */,
+				FC585A471928386D0096B8DE /* main.m */,
+				FC585A491928386D0096B8DE /* iOSCon-FindMyEstimote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC585A601928386D0096B8DE /* iOSCon-FindMyEstimoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A661928386D0096B8DE /* iOSCon_FindMyEstimoteTests.m */,
+				FC585A611928386D0096B8DE /* Supporting Files */,
+			);
+			path = "iOSCon-FindMyEstimoteTests";
+			sourceTree = "<group>";
+		};
+		FC585A611928386D0096B8DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC585A621928386D0096B8DE /* iOSCon-FindMyEstimoteTests-Info.plist */,
+				FC585A631928386D0096B8DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC585A371928386D0096B8DE /* iOSCon-FindMyEstimote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC585A6A1928386D0096B8DE /* Build configuration list for PBXNativeTarget "iOSCon-FindMyEstimote" */;
+			buildPhases = (
+				FC585A341928386D0096B8DE /* Sources */,
+				FC585A351928386D0096B8DE /* Frameworks */,
+				FC585A361928386D0096B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSCon-FindMyEstimote";
+			productName = "iOSCon-FindMyEstimote";
+			productReference = FC585A381928386D0096B8DE /* iOSCon-FindMyEstimote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC585A581928386D0096B8DE /* iOSCon-FindMyEstimoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC585A6D1928386D0096B8DE /* Build configuration list for PBXNativeTarget "iOSCon-FindMyEstimoteTests" */;
+			buildPhases = (
+				FC585A551928386D0096B8DE /* Sources */,
+				FC585A561928386D0096B8DE /* Frameworks */,
+				FC585A571928386D0096B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC585A5F1928386D0096B8DE /* PBXTargetDependency */,
+			);
+			name = "iOSCon-FindMyEstimoteTests";
+			productName = "iOSCon-FindMyEstimoteTests";
+			productReference = FC585A591928386D0096B8DE /* iOSCon-FindMyEstimoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC585A301928386D0096B8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sferrini;
+				TargetAttributes = {
+					FC585A581928386D0096B8DE = {
+						TestTargetID = FC585A371928386D0096B8DE;
+					};
+				};
+			};
+			buildConfigurationList = FC585A331928386D0096B8DE /* Build configuration list for PBXProject "iOSCon-FindMyEstimote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC585A2F1928386D0096B8DE;
+			productRefGroup = FC585A391928386D0096B8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC585A371928386D0096B8DE /* iOSCon-FindMyEstimote */,
+				FC585A581928386D0096B8DE /* iOSCon-FindMyEstimoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC585A361928386D0096B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A541928386D0096B8DE /* Images.xcassets in Resources */,
+				FC585A461928386D0096B8DE /* InfoPlist.strings in Resources */,
+				FC585A4F1928386D0096B8DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC585A571928386D0096B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A651928386D0096B8DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC585A341928386D0096B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A521928386D0096B8DE /* ViewController.m in Sources */,
+				FC585A4C1928386D0096B8DE /* AppDelegate.m in Sources */,
+				FC585A481928386D0096B8DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC585A551928386D0096B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC585A671928386D0096B8DE /* iOSCon_FindMyEstimoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC585A5F1928386D0096B8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC585A371928386D0096B8DE /* iOSCon-FindMyEstimote */;
+			targetProxy = FC585A5E1928386D0096B8DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC585A441928386D0096B8DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC585A451928386D0096B8DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC585A4D1928386D0096B8DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC585A4E1928386D0096B8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC585A631928386D0096B8DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC585A641928386D0096B8DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC585A681928386D0096B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC585A691928386D0096B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC585A6B1928386D0096B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC585A6C1928386D0096B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC585A6E1928386D0096B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCon-FindMyEstimote.app/iOSCon-FindMyEstimote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSCon-FindMyEstimoteTests/iOSCon-FindMyEstimoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC585A6F1928386D0096B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCon-FindMyEstimote.app/iOSCon-FindMyEstimote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCon-FindMyEstimote/iOSCon-FindMyEstimote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCon-FindMyEstimoteTests/iOSCon-FindMyEstimoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC585A331928386D0096B8DE /* Build configuration list for PBXProject "iOSCon-FindMyEstimote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC585A681928386D0096B8DE /* Debug */,
+				FC585A691928386D0096B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC585A6A1928386D0096B8DE /* Build configuration list for PBXNativeTarget "iOSCon-FindMyEstimote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC585A6B1928386D0096B8DE /* Debug */,
+				FC585A6C1928386D0096B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC585A6D1928386D0096B8DE /* Build configuration list for PBXNativeTarget "iOSCon-FindMyEstimoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC585A6E1928386D0096B8DE /* Debug */,
+				FC585A6F1928386D0096B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC585A301928386D0096B8DE /* Project object */;
+}
