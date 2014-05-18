@@ -40,12 +40,20 @@
                                     <segue destination="XC9-i5-D0b" kind="push" id="KgC-VY-MkY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="estimote.png" translatesAutoresizingMaskIntoConstraints="NO" id="fKi-pd-a7g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="estimote.png" translatesAutoresizingMaskIntoConstraints="NO" id="fKi-pd-a7g">
                                 <rect key="frame" x="159" y="455" width="141" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="hlZ-TM-BDr"/>
+                                    <constraint firstAttribute="width" constant="141" id="zO3-fX-MbE"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fKi-pd-a7g" secondAttribute="bottom" constant="20" symbolic="YES" id="gpu-nH-z8n"/>
+                            <constraint firstAttribute="trailing" secondItem="fKi-pd-a7g" secondAttribute="trailing" constant="20" symbolic="YES" id="kef-SE-3kv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zii-i9-ujs"/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -226,6 +234,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="1pZ-zL-f5z" kind="modal" id="eOZ-yb-g1m"/>
+                                        </connections>
                                     </button>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="PZh-ex-L8L">
                                         <rect key="frame" x="20" y="80" width="240" height="29"/>
@@ -294,10 +305,42 @@
             </objects>
             <point key="canvasLocation" x="65" y="-357"/>
         </scene>
+        <!--Seek Panel View Controller-->
+        <scene sceneID="0SJ-WT-mPr">
+            <objects>
+                <viewController id="1pZ-zL-f5z" customClass="SeekPanelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HcP-tU-yMY"/>
+                        <viewControllerLayoutGuide type="bottom" id="X0K-V8-J6W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NQJ-Nt-bXo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oak-Pu-rwi">
+                                <rect key="frame" x="13" y="13" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back-arrow.png">
+                                    <color key="titleColor" red="1" green="0.66572805430000004" blue="0.6371256918" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeSeekPanel:" destination="1pZ-zL-f5z" eventType="touchUpInside" id="n0s-UP-2dG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" id="i2y-wP-p4o"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yaY-i3-E2f" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="443" y="-357"/>
+        </scene>
     </scenes>
     <resources>
         <image name="back-arrow.png" width="50" height="50"/>
-        <image name="estimote.png" width="400" height="256"/>
+        <image name="estimote.png" width="200" height="128"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
